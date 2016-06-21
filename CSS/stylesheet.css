@@ -101,6 +101,7 @@ body{
 
 }
 ul{padding:0;
+	text-anchor: 10px;
 }
 .fila{
 	float: left;
