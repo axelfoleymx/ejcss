@@ -1,0 +1,15 @@
+body{background-color: gray;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	position: static;
+
+}
+.parrafo,.parrafo1{
+	position: relative;
+	margin-top: 14px;
+
+}
+.parrafo1{
+	text-align: right;
+}
