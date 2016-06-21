@@ -13,24 +13,22 @@ body{background-color: #eae3e2;
 	position: fixed;
 	top:0;
 	right: 15%;
-	background-color: #75719C;
+	background-color: #615C8B;
 	text-align: center;
-	width: 45vh;
+	width: 27%;
 
 }
 ul{padding:0
 
 }
-
-div.mano{
+div.brazo{
 	position: fixed;
 	left: 0%;
-	bottom: 3%;
-
+	bottom: 8%;
 
 z-index: -1;
 }
-div.extrem{
+div.mano{
 	position: fixed;
 	right: 0;
 bottom: -40%;
@@ -73,7 +71,7 @@ div.desc {
     color: white;
     font-family: Arialf
 }
-@media only screen and (max-width:768px){
+@media only screen and (max-width:785px){
 
 body{
 	background-color: #E5DCDB;
@@ -87,16 +85,18 @@ body{
 	position: relative;
 	width: 100%
 	margin-top: 25px;
+	z-index: -1;
 }
 
 	.menu{
 	display: block;
 	position: fixed;
-	right: 15%;
+	right: 35%;
 	top:0;
-	background-color: #605A8A;
+	background-color: #615C8B;
 	text-align: center;
-	width: 70vw
+	width: 45%;
+	
 
 
 }
@@ -109,3 +109,4 @@ ul{padding:0;
 	display: table-cell;
 	padding-right: 28px;
 }
+
