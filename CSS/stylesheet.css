@@ -17,11 +17,14 @@ body{background-color: #eae3e2;
 	width: 45vh;
 
 }
-ul{padding:0}
+ul{padding:0
+
 }
-.parrafo,.parrafo1{
+
+.parrafo{
 	position: relative;
-	margin-top: 14px;
+	
+	margin-top: 15px;
 
 }
 .parrafo1{
@@ -36,4 +39,39 @@ ul{padding:0}
 	width: 22%;
 	display: table-cell;
 	padding: 10px;
+}
+
+@media only screen and (max-width:768px){
+
+body{
+	background-color: #E5DCDB;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 80px;
+	position: relative;
+	width: 100%}
+
+.parrafo,.parrafo1{
+	position: relative;
+	width: 100%
+	margin-top: 25px;
+}
+
+	.menu{
+	display: block;
+	position: fixed;
+	right: 15%;
+	top:0;
+	background-color: #605A8A;
+	text-align: center;
+	width: 70vw;
+
+}
+ul{padding:0;
+}
+.fila{
+	float: left;
+	width: 14%;
+	display: table-cell;
+	padding-right: 28px;
 }
