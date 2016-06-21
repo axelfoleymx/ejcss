@@ -30,9 +30,15 @@ ul{padding:0
 .parrafo1{
 	text-align: right;
 }
-.tabla{display: table;
+.row{display: table;
 	box-sizing: border-box;
 
+}
+img{width: 100%}
+.d1{
+background: url("img/desaf.png")center no-repeat;
+width: 10%;
+height: 10%;
 }
 .fila{
 	float: left;
@@ -40,7 +46,18 @@ ul{padding:0
 	display: table-cell;
 	padding: 10px;
 }
-
+.row:afer{
+ content: '';
+ display: block;
+ clear: both;
+}
+div.desc {
+    padding: 7px;
+    text-align: center;
+    background-color: #C2963A;
+    color: white;
+    font-family: Arialf
+}
 @media only screen and (max-width:768px){
 
 body{
@@ -64,7 +81,8 @@ body{
 	top:0;
 	background-color: #605A8A;
 	text-align: center;
-	width: 70vw;
+	width: 70vw
+	z-index:11;
 
 }
 ul{padding:0;
