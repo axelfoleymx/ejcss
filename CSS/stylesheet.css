@@ -1,4 +1,5 @@
 body{background-color: #eae3e2;
+
 	
 	margin-right: auto;
 	margin-left: auto;
@@ -20,7 +21,13 @@ body{background-color: #eae3e2;
 ul{padding:0
 
 }
-
+div.extrem{
+	position: fixed;
+	right: 0;
+height: 100%
+width:30%;
+z-index: -11;
+}
 .parrafo{
 	position: relative;
 	
@@ -82,7 +89,7 @@ body{
 	background-color: #605A8A;
 	text-align: center;
 	width: 70vw
-	z-index:11;
+
 
 }
 ul{padding:0;
