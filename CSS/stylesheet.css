@@ -1,8 +1,9 @@
-body{background-color: gray;
+body{background-color: #eae3e2;
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 80px;
 	position: static;
+	width: 960px;
 
 }
 .parrafo,.parrafo1{
@@ -12,4 +13,16 @@ body{background-color: gray;
 }
 .parrafo1{
 	text-align: right;
+}
+.tabla{display: table;
+	box-sizing: border-box;
+
+}
+.fila{
+	float: left;
+	width: 22%;
+	display: table-cell;
+	padding: 10px;
+	
+	
 }
