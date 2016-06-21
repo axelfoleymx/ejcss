@@ -21,12 +21,20 @@ body{background-color: #eae3e2;
 ul{padding:0
 
 }
+
+div.mano{
+	position: fixed;
+	left: 0%;
+	bottom: 3%;
+
+
+z-index: -1;
+}
 div.extrem{
 	position: fixed;
 	right: 0;
-height: 100%
-width:30%;
-z-index: -11;
+bottom: -40%;
+z-index: -1;
 }
 .parrafo{
 	position: relative;
